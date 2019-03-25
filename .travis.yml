@@ -1,0 +1,10 @@
+env:
+  - OS=alpine
+  - OS=ubuntu
+  - OS=redhat
+language: go
+go:
+  - "1.11"
+script:
+- bash ./build.sh
+
